@@ -1,13 +1,11 @@
 const url = new URL(location.href);
 const moiveId = url.searchParams.get("id");
 const moiveTitle = url.searchParams.get("title");
-
 const APILINKLOCAL =
   "https://review-backend.aryamhaile.repl.co/api/v1/reviews/";
 
 const main = document.getElementById("section");
 const title = (document.getElementById("title").innerHTML = moiveTitle);
-
 const div_new = document.createElement("div");
 div_new.innerHTML = `
 <div class="row">
