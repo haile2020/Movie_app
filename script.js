@@ -44,6 +44,7 @@ function returnMovies(url) {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   main.innerHTML = "";
+
   const searchItem = search.value;
   if (searchItem) {
     returnMovies(SEARCHAPI + searchItem);

@@ -9,7 +9,6 @@ const main = document.getElementById("section");
 const title = (document.getElementById("title").innerHTML = moiveTitle);
 
 const div_new = document.createElement("div");
-
 div_new.innerHTML = `
 <div class="row">
     <div class="column-review">
